@@ -1,0 +1,45 @@
+{
+	"dialogueNodes": [
+		{
+			"id": 0,
+			"spokenWords": "The intruder is trying to escape the island!",
+			"replies": [],
+			"nodeLinks": [ 1 ],
+			"speakerName": "Haeg",
+			"speakerOnePortrait": "scientist_normal",
+			"onePortraitFacingDirection": "",
+			"speakerTwoPortrait": "",
+			"twoPortraitFacingDirection": "",
+			"centerPortrait": "",
+			"voice": "male",
+			"audioSFX": "",
+			"musicCue": "",
+			"overrideFacingDirectionPlayer": "right",
+			"currentNpc": "",
+			"overrideFacingDirectionNPC": "",
+			"taskCompleted": ""
+		},
+
+		{
+			"id": 1,
+			"spokenWords": "All security bots to the exit. Use lethal force if you must, but don't damage the Soulscythe.",
+			"replies": [],
+			"nodeLinks": [],
+			"speakerName": "Haeg",
+			"speakerOnePortrait": "scientist_normal",
+			"onePortraitFacingDirection": "",
+			"speakerTwoPortrait": "",
+			"twoPortraitFacingDirection": "",
+			"centerPortrait": "",
+			"voice": "male",
+			"audioSFX": "",
+			"musicCue": "",
+			"overrideFacingDirectionPlayer": "",
+			"currentNpc": "",
+			"overrideFacingDirectionNPC": "",
+			"taskCompleted": ""
+		}
+
+	]
+	
+}

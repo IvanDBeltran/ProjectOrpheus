@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5882657402876675649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6644316593440465790}
+  - component: {fileID: 6738689778829761561}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6644316593440465790
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5882657402876675649}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.467701, y: -5.4016495, z: -76.65776}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6738689778829761561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5882657402876675649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd6de4699812f47eda616f66ab73f8ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixerGroup: {fileID: 24300002, guid: f3bc85b28e2824dc1be34bdde8c41f72, type: 2}
+  sounds:
+  - name: title_screen
+    clip: {fileID: 8300000, guid: b7c824380d9894c3593a1ba3865402ac, type: 3}
+    volume: 0.2
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 2037405581558895523, guid: f3bc85b28e2824dc1be34bdde8c41f72,
+      type: 2}
+    source: {fileID: 0}
+  - name: Re-attachSoul
+    clip: {fileID: 8300000, guid: b5a12abbb09f04bfeb2bcd0b46ed67f3, type: 3}
+    volume: 0.354
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0.1
+    loop: 0
+    mixerGroup: {fileID: 1374374015249231930, guid: f3bc85b28e2824dc1be34bdde8c41f72,
+      type: 2}
+    source: {fileID: 0}
+  - name: forest
+    clip: {fileID: 8300000, guid: ed89aacda255447ba981d3a4261fe695, type: 3}
+    volume: 0.4
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 2037405581558895523, guid: f3bc85b28e2824dc1be34bdde8c41f72,
+      type: 2}
+    source: {fileID: 0}
+  - name: lab
+    clip: {fileID: 8300000, guid: cebe57226ed9647ba84aec4c019875ac, type: 3}
+    volume: 0.4
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 2037405581558895523, guid: f3bc85b28e2824dc1be34bdde8c41f72,
+      type: 2}
+    source: {fileID: 0}
+  m_OnHoverSounds:
+  - name: MouseHover1
+    clip: {fileID: 8300000, guid: 502e49798f4b147409d2fb0a06783985, type: 3}
+    volume: 0.5
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 1374374015249231930, guid: f3bc85b28e2824dc1be34bdde8c41f72,
+      type: 2}
+    source: {fileID: 0}
+  - name: MouseHover1
+    clip: {fileID: 8300000, guid: f48df84c00ff0429783e5f92688ddc76, type: 3}
+    volume: 0.5
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 1374374015249231930, guid: f3bc85b28e2824dc1be34bdde8c41f72,
+      type: 2}
+    source: {fileID: 0}
+  - name: MouseHover1
+    clip: {fileID: 8300000, guid: 7b3ba6ae445694a6499b94fc3bfb5a94, type: 3}
+    volume: 0.5
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 1374374015249231930, guid: f3bc85b28e2824dc1be34bdde8c41f72,
+      type: 2}
+    source: {fileID: 0}
+  - name: MouseHover1
+    clip: {fileID: 8300000, guid: d7f09a03dac58439bb6fa3db5870893f, type: 3}
+    volume: 0.5
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 1374374015249231930, guid: f3bc85b28e2824dc1be34bdde8c41f72,
+      type: 2}
+    source: {fileID: 0}
+  - name: MouseHover1
+    clip: {fileID: 8300000, guid: 164142d09f4d4409b8389e2fda385e03, type: 3}
+    volume: 0.5
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 1374374015249231930, guid: f3bc85b28e2824dc1be34bdde8c41f72,
+      type: 2}
+    source: {fileID: 0}
+  m_OnClickSounds:
+  - name: ButtonClick1
+    clip: {fileID: 8300000, guid: aa7d308796bf04daabedf595cb20db0f, type: 3}
+    volume: 0.5
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 1374374015249231930, guid: f3bc85b28e2824dc1be34bdde8c41f72,
+      type: 2}
+    source: {fileID: 0}
+  - name: ButtonClick2
+    clip: {fileID: 8300000, guid: 1100f1d735a9443fc917475c229be1a4, type: 3}
+    volume: 0.5
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 1374374015249231930, guid: f3bc85b28e2824dc1be34bdde8c41f72,
+      type: 2}
+    source: {fileID: 0}
+  - name: ButtonClick3
+    clip: {fileID: 8300000, guid: 788220b1c801648c5915a8118cade85c, type: 3}
+    volume: 0.5
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 1374374015249231930, guid: f3bc85b28e2824dc1be34bdde8c41f72,
+      type: 2}
+    source: {fileID: 0}
+  - name: ButtonClick4
+    clip: {fileID: 8300000, guid: 1beae6163fc764cb8b4afff10481ccae, type: 3}
+    volume: 0.5
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 1374374015249231930, guid: f3bc85b28e2824dc1be34bdde8c41f72,
+      type: 2}
+    source: {fileID: 0}
+  m_McGrunts:
+  - name: Grunts_1
+    clip: {fileID: 8300000, guid: dd379bee339f34a809ca34dae1f9aa6d, type: 3}
+    volume: 0.5
+    volumeVariance: 0.2
+    pitch: 1.2
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 1374374015249231930, guid: f3bc85b28e2824dc1be34bdde8c41f72,
+      type: 2}
+    source: {fileID: 0}
+  - name: Grunts_2
+    clip: {fileID: 8300000, guid: dd379bee339f34a809ca34dae1f9aa6d, type: 3}
+    volume: 0.5
+    volumeVariance: 0.2
+    pitch: 1.2
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 1374374015249231930, guid: f3bc85b28e2824dc1be34bdde8c41f72,
+      type: 2}
+    source: {fileID: 0}
+  - name: Grunts_3
+    clip: {fileID: 8300000, guid: dd379bee339f34a809ca34dae1f9aa6d, type: 3}
+    volume: 0.5
+    volumeVariance: 0.2
+    pitch: 1.2
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 1374374015249231930, guid: f3bc85b28e2824dc1be34bdde8c41f72,
+      type: 2}
+    source: {fileID: 0}
+  - name: Grunts_4
+    clip: {fileID: 8300000, guid: dd379bee339f34a809ca34dae1f9aa6d, type: 3}
+    volume: 0.5
+    volumeVariance: 0.2
+    pitch: 1.2
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 1374374015249231930, guid: f3bc85b28e2824dc1be34bdde8c41f72,
+      type: 2}
+    source: {fileID: 0}
+  - name: Grunts_5
+    clip: {fileID: 8300000, guid: dd379bee339f34a809ca34dae1f9aa6d, type: 3}
+    volume: 0.5
+    volumeVariance: 0.2
+    pitch: 1.2
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 1374374015249231930, guid: f3bc85b28e2824dc1be34bdde8c41f72,
+      type: 2}
+    source: {fileID: 0}
+  m_McDeath: []
+  currentMusicPlaying: 

@@ -1,0 +1,1059 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8885638620914081332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/MC/Movement/PlayerJump
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/MC/Movement/PlayerJump
+  guid: d8fceef1e096da4aa2d22f755a7ff5a9
+  Banks:
+  - {fileID: 7011767836698269607}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-8402648796935363598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/NPC/GuardBot
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/NPC/GuardBot
+  guid: d9f86dfbe9e7db448702467367efae46
+  Banks:
+  - {fileID: 7011767836698269607}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-8315410033440425719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SfxBank.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMODAssets/Desktop/SfxBank.strings.bank
+  Name: SfxBank.strings
+  StudioPath: bank:/SfxBank.strings
+  lastModified: 637613773930000000
+  LoadResult: 0
+  FileSizes:
+  - Name: 
+    Value: 1408
+  Exists: 0
+--- !u!114 &-7407350529909766284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/MxBank.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMODAssets/Desktop/MxBank.bank
+  Name: MxBank
+  StudioPath: bank:/MxBank
+  lastModified: 637614167350000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-6673170388885448455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../Desktop/FGJFMOD/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637614704540000000
+  LoadResult: 0
+  FileSizes:
+  - Name: 
+    Value: 892
+  Exists: 0
+--- !u!114 &-5921490259605712285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/MC/Skills/AttachSoul
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/MC/Skills/AttachSoul
+  guid: 0c25208fb0af5e47a77f72598a3d0f13
+  Banks:
+  - {fileID: 7011767836698269607}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-5629678673931240183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/Misc/LaserShot
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/Misc/LaserShot
+  guid: 2449436d9d657748ba497babe77ae8d9
+  Banks:
+  - {fileID: -3584013853983243499}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5450385066748546565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/Misc/LaserBarrier
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/Misc/LaserBarrier
+  guid: 55f8208931f21f49a96627aa4655061f
+  Banks:
+  - {fileID: -3584013853983243499}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4993422091090127409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Mx/GamePlayMx
+  m_EditorClassIdentifier: 
+  Path: event:/Mx/GamePlayMx
+  guid: e7d369daff6d2841abe6a53db3168fd1
+  Banks: []
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 114454
+--- !u!114 &-4756994127861089459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/MC/Skills/DetachSoul
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/MC/Skills/DetachSoul
+  guid: dc75acdaafb4d54892378488aaff9c8a
+  Banks:
+  - {fileID: -3584013853983243499}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-4394246407371743097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Avishay/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMODAssets/Desktop/Avishay/Master.bank
+  Name: Avishay/Master
+  StudioPath: 
+  lastModified: 637614704540000000
+  LoadResult: 70
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-3584013853983243499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SfxBank.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMODAssets/Desktop/SfxBank.bank
+  Name: SfxBank
+  StudioPath: bank:/SfxBank
+  lastModified: 637955992880000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-2618496019798975468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/NPC/GuardBotFire
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/NPC/GuardBotFire
+  guid: a171d55514957c4f8d70ec36c48fafdd
+  Banks:
+  - {fileID: 7011767836698269607}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2473134568855750568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/MC/Movement/FootstepsConcrete
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/MC/Movement/FootstepsConcrete
+  guid: 16febea7d1f46346a406d983121e3047
+  Banks:
+  - {fileID: 7011767836698269607}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-2360996340893996621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FGJFMOD/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: 
+  lastModified: 637614704540000000
+  LoadResult: 70
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-2120649258477944698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FGJFMOD/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: 
+  lastModified: 637614704540000000
+  LoadResult: 70
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-2060556381655799287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Build/Desktop/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../Desktop/FGJFMOD/Build/Desktop/Music.bank
+  Name: Build/Desktop/Music
+  StudioPath: 
+  lastModified: 637614704540000000
+  LoadResult: 70
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-595514021371104609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Avishay/Music.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMODAssets/Desktop/Avishay/Music.bank
+  Name: Avishay/Music
+  StudioPath: 
+  lastModified: 637614704540000000
+  LoadResult: 70
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-147427307559936146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Avishay/Music.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMODAssets/Desktop/Avishay/Music.bank
+  Name: Avishay/Music
+  StudioPath: 
+  lastModified: 637614704540000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 673375320588190145}
+  - {fileID: 8384840794079066277}
+  - {fileID: -3584013853983243499}
+  EditorEvents:
+  - {fileID: 962593366930445336}
+  - {fileID: 3236759692204160687}
+  - {fileID: 2549397566187005598}
+  - {fileID: 3335990267053094774}
+  - {fileID: -5629678673931240183}
+  - {fileID: 5322864230947866485}
+  - {fileID: -5450385066748546565}
+  - {fileID: 3048017747885734792}
+  - {fileID: 2861772169113145646}
+  - {fileID: 7836566611277854985}
+  - {fileID: 8902588212050527974}
+  - {fileID: -4756994127861089459}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -3584013853983243499}
+  StringsBanks:
+  - {fileID: 673375320588190145}
+  stringsBankWriteTime: 637955992880000000
+  cacheVersion: 6
+--- !u!114 &127312736386305461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/NPC/GoodBotMovement
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/NPC/GoodBotMovement
+  guid: 58727268639bad48812a2f1662448216
+  Banks:
+  - {fileID: 7011767836698269607}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2005
+--- !u!114 &673375320588190145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SfxBank.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMODAssets/Desktop/SfxBank.strings.bank
+  Name: SfxBank.strings
+  StudioPath: bank:/SfxBank.strings
+  lastModified: 637955992880000000
+  LoadResult: 0
+  FileSizes:
+  - Name: 
+    Value: 1408
+  Exists: 1
+--- !u!114 &740198596253776077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Avishay/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMODAssets/Desktop/Avishay/Master.bank
+  Name: Avishay/Master
+  StudioPath: 
+  lastModified: 637614704540000000
+  LoadResult: 70
+  FileSizes: []
+  Exists: 0
+--- !u!114 &962593366930445336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Mx/GamePlayMx
+  m_EditorClassIdentifier: 
+  Path: event:/Mx/GamePlayMx
+  guid: e7d369daff6d2841abe6a53db3168fd1
+  Banks:
+  - {fileID: 8384840794079066277}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 114454
+--- !u!114 &2549397566187005598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/Misc/SwitchOnOFF
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/Misc/SwitchOnOFF
+  guid: 0e8fc2f2e10886498fa2aab26ee7672a
+  Banks:
+  - {fileID: -3584013853983243499}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1172
+--- !u!114 &2861772169113145646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/NPC/GuardBotFire
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/NPC/GuardBotFire
+  guid: a171d55514957c4f8d70ec36c48fafdd
+  Banks:
+  - {fileID: -3584013853983243499}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3048017747885734792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/NPC/GoodBotMovement
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/NPC/GoodBotMovement
+  guid: 58727268639bad48812a2f1662448216
+  Banks:
+  - {fileID: -3584013853983243499}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2005
+--- !u!114 &3121307462701191376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/Misc/LaserShot
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/Misc/LaserShot
+  guid: 2449436d9d657748ba497babe77ae8d9
+  Banks:
+  - {fileID: 7011767836698269607}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3236759692204160687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/MC/Skills/AttachSoul
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/MC/Skills/AttachSoul
+  guid: 0c25208fb0af5e47a77f72598a3d0f13
+  Banks:
+  - {fileID: -3584013853983243499}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &3313811143606679132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FGJFMOD/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637614704540000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 892
+  Exists: 0
+--- !u!114 &3335990267053094774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/MC/Movement/FootstepsConcrete
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/MC/Movement/FootstepsConcrete
+  guid: 16febea7d1f46346a406d983121e3047
+  Banks:
+  - {fileID: -3584013853983243499}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &3348482007917544497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Avishay/Music.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMODAssets/Desktop/Avishay/Music.bank
+  Name: Avishay/Music
+  StudioPath: 
+  lastModified: 637614704540000000
+  LoadResult: 70
+  FileSizes: []
+  Exists: 0
+--- !u!114 &3608110285861912408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMODAssets/Desktop/Music.bank
+  Name: Music
+  StudioPath: 
+  lastModified: 637614704540000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &5322864230947866485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/MC/Movement/PlayerDeath
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/MC/Movement/PlayerDeath
+  guid: 39fc6fa3288b4c49baa2231aa8148932
+  Banks:
+  - {fileID: -3584013853983243499}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &5931206771797017302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMODAssets/Desktop/Master.bank
+  Name: Master
+  StudioPath: 
+  lastModified: 637614704540000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &6011048771668918040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/Misc/SwitchOnOFF
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/Misc/SwitchOnOFF
+  guid: 0e8fc2f2e10886498fa2aab26ee7672a
+  Banks:
+  - {fileID: 7011767836698269607}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1172
+--- !u!114 &6185592294956109337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/MC/Skills/DetachSoul
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/MC/Skills/DetachSoul
+  guid: dc75acdaafb4d54892378488aaff9c8a
+  Banks:
+  - {fileID: 7011767836698269607}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &6231575377623036652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/MxBank.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMODAssets/Desktop/MxBank.bank
+  Name: MxBank
+  StudioPath: bank:/MxBank
+  lastModified: 637613753300000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &6438773690898729317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/Misc/LaserBarrier
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/Misc/LaserBarrier
+  guid: 55f8208931f21f49a96627aa4655061f
+  Banks:
+  - {fileID: 7011767836698269607}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6674334426775262917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SfxBank.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMODAssets/Desktop/SfxBank.bank
+  Name: SfxBank
+  StudioPath: 
+  lastModified: 637613773930000000
+  LoadResult: 28
+  FileSizes: []
+  Exists: 0
+--- !u!114 &7011767836698269607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SfxBank.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMODAssets/Desktop/SfxBank.bank
+  Name: SfxBank
+  StudioPath: bank:/SfxBank
+  lastModified: 637614167350000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &7159369382792670320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SfxBank.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMODAssets/Desktop/SfxBank.strings.bank
+  Name: SfxBank.strings
+  StudioPath: bank:/SfxBank.strings
+  lastModified: 637614167350000000
+  LoadResult: 0
+  FileSizes:
+  - Name: 
+    Value: 1408
+  Exists: 1
+--- !u!114 &7339695958061201895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Avishay/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMODAssets/Desktop/Avishay/Master.bank
+  Name: Avishay/Master
+  StudioPath: 
+  lastModified: 637614704540000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &7461851358724528613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Build/Desktop/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../Desktop/FGJFMOD/Build/Desktop/Master.bank
+  Name: Build/Desktop/Master
+  StudioPath: 
+  lastModified: 637614704540000000
+  LoadResult: 70
+  FileSizes: []
+  Exists: 0
+--- !u!114 &7836566611277854985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/MC/Movement/PlayerJump
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/MC/Movement/PlayerJump
+  guid: d8fceef1e096da4aa2d22f755a7ff5a9
+  Banks:
+  - {fileID: -3584013853983243499}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &8146664050834848997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/MC/Movement/PlayerDeath
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/MC/Movement/PlayerDeath
+  guid: 39fc6fa3288b4c49baa2231aa8148932
+  Banks:
+  - {fileID: 7011767836698269607}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &8384840794079066277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/MxBank.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMODAssets/Desktop/MxBank.bank
+  Name: MxBank
+  StudioPath: bank:/MxBank
+  lastModified: 637955992880000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &8485776621670891513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Mx/GamePlayMx
+  m_EditorClassIdentifier: 
+  Path: event:/Mx/GamePlayMx
+  guid: e7d369daff6d2841abe6a53db3168fd1
+  Banks:
+  - {fileID: -7407350529909766284}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 114454
+--- !u!114 &8902588212050527974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/NPC/GuardBot
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/NPC/GuardBot
+  guid: d9f86dfbe9e7db448702467367efae46
+  Banks:
+  - {fileID: -3584013853983243499}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0

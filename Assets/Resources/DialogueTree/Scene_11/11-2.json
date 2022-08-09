@@ -1,0 +1,65 @@
+{
+	"dialogueNodes": [
+		{
+			"id": 0,
+			"spokenWords": "And just for the record...",
+			"replies": [],
+			"nodeLinks": [ 1 ],
+			"speakerName": "Janice",
+			"speakerOnePortrait": "player_normal",
+			"onePortraitFacingDirection": "",
+			"speakerTwoPortrait": "janice_normal",
+			"twoPortraitFacingDirection": "",
+			"centerPortrait": "",
+			"voice": "female",
+			"audioSFX": "",
+			"musicCue": "",
+			"overrideFacingDirectionPlayer": "left",
+			"currentNpc": "",
+			"overrideFacingDirectionNPC": "",
+			"taskCompleted": ""
+		},
+
+		{
+			"id": 1,
+			"spokenWords": "I would have said yes...",
+			"replies": [],
+			"nodeLinks": [ 2 ],
+			"speakerName": "Janice",
+			"speakerOnePortrait": "player_normal",
+			"onePortraitFacingDirection": "",
+			"speakerTwoPortrait": "janice_normal",
+			"twoPortraitFacingDirection": "",
+			"centerPortrait": "",
+			"voice": "female",
+			"audioSFX": "",
+			"musicCue": "",
+			"overrideFacingDirectionPlayer": "",
+			"currentNpc": "",
+			"overrideFacingDirectionNPC": "",
+			"taskCompleted": ""
+		},
+
+		{
+			"id": 2,
+			"spokenWords": "Thanks, Janice. I will never forget you.",
+			"replies": [],
+			"nodeLinks": [ ],
+			"speakerName": "Alex",
+			"speakerOnePortrait": "player_normal",
+			"onePortraitFacingDirection": "",
+			"speakerTwoPortrait": "janice_normal",
+			"twoPortraitFacingDirection": "",
+			"centerPortrait": "",
+			"voice": "male",
+			"audioSFX": "",
+			"musicCue": "",
+			"overrideFacingDirectionPlayer": "",
+			"currentNpc": "",
+			"overrideFacingDirectionNPC": "",
+			"taskCompleted": ""
+		}
+
+	]
+	
+}

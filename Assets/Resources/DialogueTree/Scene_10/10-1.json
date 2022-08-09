@@ -1,0 +1,65 @@
+{
+	"dialogueNodes": [
+		{
+			"id": 0,
+			"spokenWords": "I know you told me not to go after you.",
+			"replies": [],
+			"nodeLinks": [1],
+			"speakerName": "Alex",
+			"speakerOnePortrait": "player_normal",
+			"onePortraitFacingDirection": "",
+			"speakerTwoPortrait": "",
+			"twoPortraitFacingDirection": "",
+			"centerPortrait": "",
+			"voice": "male",
+			"audioSFX": "",
+			"musicCue": "",
+			"overrideFacingDirectionPlayer": "right",
+			"currentNpc": "",
+			"overrideFacingDirectionNPC": "",
+			"taskCompleted": ""
+		},
+
+		{
+			"id": 1,
+			"spokenWords": "But I can't leave you in that terrible place.",
+			"replies": [],
+			"nodeLinks": [ 2 ],
+			"speakerName": "Alex",
+			"speakerOnePortrait": "player_normal",
+			"onePortraitFacingDirection": "",
+			"speakerTwoPortrait": "",
+			"twoPortraitFacingDirection": "",
+			"centerPortrait": "",
+			"voice": "male",
+			"audioSFX": "",
+			"musicCue": "",
+			"overrideFacingDirectionPlayer": "",
+			"currentNpc": "",
+			"overrideFacingDirectionNPC": "",
+			"taskCompleted": ""
+		},
+
+		{
+			"id": 2,
+			"spokenWords": "I'll get you out, Janice... whatever it takes.",
+			"replies": [],
+			"nodeLinks": [ ],
+			"speakerName": "Alex",
+			"speakerOnePortrait": "player_normal",
+			"onePortraitFacingDirection": "",
+			"speakerTwoPortrait": "",
+			"twoPortraitFacingDirection": "",
+			"centerPortrait": "",
+			"voice": "male",
+			"audioSFX": "",
+			"musicCue": "",
+			"overrideFacingDirectionPlayer": "",
+			"currentNpc": "",
+			"overrideFacingDirectionNPC": "",
+			"taskCompleted": ""
+		}
+
+	]
+	
+}
